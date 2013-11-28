@@ -1,48 +1,49 @@
-/* @license
- * MyFonts Webfont Build ID 2341569, 2012-08-09T16:00:31-0400
- * 
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are 
- * explicitly restricted from using the Licensed Webfonts(s).
- * 
- * You may obtain a valid license at the URLs below.
- *
- * Webfont: Proxima Nova Regular by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/regular/
- * 
- * Webfont: Proxima Nova Bold by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/bold/
- * 
- * Webfont: Proxima Nova Thin by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/thin/
- * 
- * Webfont: Proxima Nova Light by Mark Simonson
- * URL: http://www.myfonts.com/fonts/marksimonson/proxima-nova/light/
- * 
- * Â© 2012 Bitstream Inc
-*/
-
-/* TODO: Switch the names of these files over to ProximaNova_Bold */
- @font-face {font-family: 'ProximaNova-Bold';src: url('http://jetstrap-site.s3.amazonaws.com/webfonts/23BAC1_2_0.eot');src: url('http://jetstrap-site.s3.amazonaws.com/webfonts/23BAC1_2_0.eot?#iefix') format('embedded-opentype'),url('http://jetstrap-site.s3.amazonaws.com/webfonts/23BAC1_2_0.woff') format('woff'),url('http://jetstrap-site.s3.amazonaws.com/webfonts/23BAC1_2_0.ttf') format('truetype');}
- 
- @font-face {font-family: 'ProximaNova-Light';src: url('http://jetstrap-site.s3.amazonaws.com/webfonts/ProximaNova_Light.eot');src: url('http://jetstrap-site.s3.amazonaws.com/webfonts/ProximaNova_Light.eot?#iefix') format('embedded-opentype'),url('http://jetstrap-site.s3.amazonaws.com/webfonts/ProximaNova_Light.woff') format('woff'),url('http://jetstrap-site.s3.amazonaws.com/webfonts/ProximaNova_Light.ttf') format('truetype');}
-
- @font-face {font-family: 'ProximaNova-Regular';src: url('http://jetstrap-site.s3.amazonaws.com/webfonts/ProximaNova_Regular.eot');src: url('http://jetstrap-site.s3.amazonaws.com/webfonts/ProximaNova_Regular.eot?#iefix') format('embedded-opentype'),url('http://jetstrap-site.s3.amazonaws.com/webfonts/ProximaNova_Regular.woff') format('woff'),url('http://jetstrap-site.s3.amazonaws.com/webfonts/ProximaNova_Regular.ttf') format('truetype');}
- 
- @font-face {font-family: 'ProximaNova-Thin';src: url('http://jetstrap-site.s3.amazonaws.com/webfonts/ProximaNova_Thin.eot');src: url('http://jetstrap-site.s3.amazonaws.com/webfonts/ProximaNova_Thin.eot?#iefix') format('embedded-opentype'),url('http://jetstrap-site.s3.amazonaws.com/webfonts/ProximaNova_Thin.woff') format('woff'),url('http://jetstrap-site.s3.amazonaws.com/webfonts/ProximaNova_Thin.ttf') format('truetype');}
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Titillium Web'), local('TitilliumWeb-Regular'), url('//themes.googleusercontent.com/static/fonts/titilliumweb/v1/7XUFZ5tgS-tD6QamInJTcZ_o9VAbKgK36i-4snuAuCM.woff') format('woff');
+}
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    src: local('Titillium WebSemiBold'), local('TitilliumWeb-SemiBold'), url('//themes.googleusercontent.com/static/fonts/titilliumweb/v1/anMUvcNT0H1YN4FII8wprx3QmhlKDgQgT1VN2Ed1WFo.woff') format('woff');
+}
+@font-face {
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Titillium WebBold'), local('TitilliumWeb-Bold'), url('//themes.googleusercontent.com/static/fonts/titilliumweb/v1/anMUvcNT0H1YN4FII8wpr_5rZpfU3XI-FvUPGDRT0xY.woff') format('woff');
+}
+@font-face{
+    font-family:'DINSchrift Alternate';
+    src: url("/assets/font/dinengschrift-alternate-webfont.eot");
+    src: url("/assets/font/dinengschrift-alternate-webfont.eot?#iefix") format("embedded-opentype"),
+    url("/assets/font/dinengschrift-alternate-webfont.woff") format("woff"),
+    url("/assets/font/dinengschrift-alternate-webfont.ttf") format("truetype"),
+    url("/assets/font/dinengschrift-alternate-webfont.svg#dinschriftalternate") format("svg");
+    font-weight:normal;
+    font-style:normal
+}
 
 body {
   padding-top: 100px;
-  font-family: 'ProximaNova-Regular', Helvetica, sans-serif;
+  font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+  background-color: #faf3e4;
+  color: #333;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    text-shadow: .1em .1em .2em rgba(0,0,0,0.1);
+    font-weight: 500;
+    font-family: 'DINSchrift Alternate', Helvetica, Arial, sans-serif;
+    color: #554e3e;
+}
 .navbar-inner {
-  padding: 5px 0px;
-  background-image: none;
-  background-color: rgba(0, 0, 0, 0.7);
+  padding: 5px 0;
+  background: none rgba(0, 0, 0, 0.7);
   box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  -moz-box-shadow: none !important;
 }
 
 .navbar .nav.pull-right li {
@@ -52,13 +53,13 @@ body {
   margin-right: 40px;
   text-decoration: none;
   color: #ccc;
-  font-size: 13px;
-  font-family: 'ProximaNova-Bold';
-  font-weight: normal;
+  font-size: 14px;
+  font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+  font-weight: 600;
   text-shadow: none;
 }
 .navbar .nav.pull-right li:last-child a {
-  margin-right: 0px;
+  margin-right: 0;
 }
 .navbar .nav.pull-right a:hover {
   color: #fff;
@@ -69,11 +70,13 @@ body {
 
 #menu {
   min-height: 800px;
-  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
   width: 180px;
 }
 @media (min-width: 1200px) {
-  width: 200px;
+  #menu {
+      width: 200px;
+  }
 }
 @media (max-width: 979px) and (min-width: 768px) {
   #menu {
@@ -82,7 +85,7 @@ body {
 }
 @media (max-width: 768px) {
   #menu {
-    min-height: 0px;
+    min-height: 0;
     border: none;
     position: static;
     width: auto;
@@ -92,13 +95,14 @@ body {
 }
 
 #menu li.nav-header {
-  color: #111;
-  font-family: 'ProximaNova-Bold';
+  color: #554e3e;
+  font-size: 16px;
+  font-family: 'DINSchrift Alternate', Helvetica, Arial, sans-serif;
   font-weight: normal;
   letter-spacing: 2px;
 }
 #menu li a {
-  padding-top: 8px;
+  padding-top: 6px;
   padding-bottom: 8px;
 }
 #menu li a {
@@ -119,15 +123,13 @@ body {
   background-image: linear-gradient(90deg, #dc534b 0%, #d96f5f 100%);
   background-image: -moz-linear-gradient(90deg, #dc534b 0%, #d96f5f 100%);
   background-image: -webkit-linear-gradient(90deg, #dc534b 0%, #d96f5f 100%);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, .2)
-  padding: 0px 10px;
-}
-.orange-button {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+  padding: 0 10px;
 }
 
 @media (max-width: 979px) {
   body {
-    padding-top: 0px;
+    padding-top: 0;
   }
 }
 

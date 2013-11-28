@@ -1,3 +1,26 @@
 markdown: rdiscount
 pygments: true
 permalink: /:title
+navigation:
+  - heading: Smartmessages Docs
+    topics:
+    - text: Home
+      url: /
+  - heading: Using Smartmessages
+    topics:
+    - text: Getting started
+      url: /smartmessages/gettingstarted/
+    - text: Test
+      url: /smartmessages/test/
+  - heading: Technical info
+    topics:
+    - text: Blah
+      url: /blah/
+  - heading: API
+    topics:
+    - text: Blah
+      url: /blah/
+  - heading: Support
+    topics:
+    - text: Contact us
+      url: mailto:info@smartmessages.net
