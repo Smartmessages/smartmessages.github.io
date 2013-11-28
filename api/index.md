@@ -1,7 +1,6 @@
 ---
 layout: default
 title: The Smartmessages API
-section: api
 ---
 #The Smartmessages API
 

@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Smartmessages Technical Info
-section: tech/dkim
+title: Smartmessages Technical Info - DKIM
 ---
 # DKIM - Domain Keys Identified Mail
 

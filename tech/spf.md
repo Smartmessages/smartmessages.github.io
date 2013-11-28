@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Smartmessages Technical Info
-section: tech/spf
+title: Smartmessages Technical Info - SPF
 ---
 # SPF - The Sender Policy Framework
 

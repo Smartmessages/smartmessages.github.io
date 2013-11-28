@@ -48,8 +48,8 @@
 </div>
 <div class="container">
     <div class="row">
-        <div class="span9">
-            {{content}}
+        <div id="content" class="span9">
+{{content}}
         </div>
         <div class="span3">
             <div id="menu">
@@ -59,7 +59,7 @@
                         <button id="searchbutton" type="submit" placeholder="Search" class="btn" onclick="doSearch();">Search</button>
                     </div>
                 </form>
-                <ul class="nav nav-list" data-spy="affix">
+                <ul class="nav nav-list">
                     {% assign url = page.url|remove:'index.html' %}
                     {% for heading in site.navigation %}
                     <li class="nav-header">{{heading.heading}}</li>
@@ -81,9 +81,14 @@
 <script>
     function doSearch() {
         run_search(function doit() {
+            var content;
+            content  = '<h1>Search Results<\/h1>\n';
+            content += '<ul>\n';
             for (var i = 0, len = final_results.length; i < len; i++) {
-                console.log(final_results[i].t + ' ' + final_results[i].u);
+                content += '<li><a href="' + final_results[i].u + '">' + final_results[i].t + '<\/a><\/li>\n';
             }
+            content += '<\/ul>';
+            $('#content').html(content); //Replace main body of page with search results
         });
     }
 </script>

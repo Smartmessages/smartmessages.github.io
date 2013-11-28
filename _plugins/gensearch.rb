@@ -67,7 +67,7 @@ module Jekyll
                 # add the page info to the ferret index
                 index << {  
                   :title => page.data['title'],
-                  :url => "#{page.dir}#{page.url}",
+                  :url => "#{page.url}",
                   :content => page.content,
                 }
 
