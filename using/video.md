@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Smartmessages Video Library
+title: Video Library
 ---
 # Smartmessages Video Library

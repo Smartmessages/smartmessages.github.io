@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Technical Info
+title: Templates
 ---
-# Technical Overview
+# Templates Overview
 
 ## It's very complicated.

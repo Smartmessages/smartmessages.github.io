@@ -25,7 +25,6 @@
     </style>
 </head>
 <body>
-<!--<a href="https://github.com/driftyco/jetstrap-docs"><img style="position: absolute; z-index: 10000; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>-->
 <div class="navbar navbar-fixed-top">
     <div class="navbar-inner">
         <div class="container">
@@ -55,8 +54,8 @@
             <div id="menu">
                 <form action="#" class="form-search" style="margin-left:15px;margin-top: 15px;">
                     <div class="input-append">
-                        <input id="searchbox" type="text" class="input-small search-query">
-                        <button id="searchbutton" type="submit" placeholder="Search" class="btn" onclick="doSearch();">Search</button>
+                        <input id="searchbox" type="text" placeholder="Search" class="input-small search-query">
+                        <button id="searchbutton" type="submit" class="btn" onclick="doSearch();">Search</button>
                     </div>
                 </form>
                 <ul class="nav nav-list">
@@ -65,7 +64,7 @@
                     <li class="nav-header">{{heading.heading}}</li>
                     {% for topic in heading.topics %}
                     <li data-section="{{topic.url}}" {% if url == topic.url %}class="active"{% endif %}>
-                    <a href="{{topic.url}}" title="{{topic.title}}">{{topic.text}}</a>
+                    <a href="{{topic.url}}" title="{{topic.title}}">&nbsp;&nbsp;{{topic.text}}</a>
                     </li>
                     {% endfor %}
                     {% endfor %}
@@ -80,7 +79,7 @@
 <script src="/assets/js/search.js"></script>
 <script>
     function doSearch() {
-        run_search(function doit() {
+        run_search(function() {
             var content;
             content  = '<h1>Search Results<\/h1>\n';
             content += '<ul>\n';

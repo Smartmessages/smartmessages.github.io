@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Smartmessages API Clients
+title: API Clients
 ---
 #Smartmessages API Clients
 

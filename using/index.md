@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Getting Started with Smartmessages
+title: Getting Started
 ---
 # Getting Started With Smartmessages

@@ -16,6 +16,12 @@ navigation:
       url: /using/tutorials.html
     - text: Video library
       url: /using/video.html
+  - heading: Templates
+    topics:
+    - text: Overview
+      url: /templates/
+    - text: Syntax guide
+      url: /templates/syntax.html
   - heading: Technical info
     topics:
     - text: Overview
@@ -26,11 +32,11 @@ navigation:
       url: /tech/dkim.html
   - heading: API
     topics:
-    - text: API basics
+    - text: Basics
       url: /api/
-    - text: API clients
+    - text: Clients
       url: /api/clients.html
-    - text: API reference
+    - text: Reference
       url: /api/reference.html
   - heading: Support
     topics:

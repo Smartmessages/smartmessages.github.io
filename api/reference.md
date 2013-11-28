@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Smartmessages API Reference
+title: API Reference
 ---
 # Smartmessages API Reference
 

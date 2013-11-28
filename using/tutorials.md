@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Smartmessages Tutorials
+title: Tutorials
 ---
 # Smartmessages Tutorials
