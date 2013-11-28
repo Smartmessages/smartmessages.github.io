@@ -9,17 +9,29 @@ navigation:
   - heading: Using Smartmessages
     topics:
     - text: Getting started
-      url: /smartmessages/gettingstarted/
-    - text: Test
-      url: /smartmessages/test/
+      url: /using/
+    - text: User guides
+      url: /using/guides.html
+    - text: Tutorials
+      url: /using/tutorials.html
+    - text: Video library
+      url: /using/video.html
   - heading: Technical info
     topics:
-    - text: Blah
-      url: /blah/
+    - text: Overview
+      url: /tech/
+    - text: SPF
+      url: /tech/spf.html
+    - text: DKIM
+      url: /tech/dkim.html
   - heading: API
     topics:
-    - text: Blah
-      url: /blah/
+    - text: API basics
+      url: /api/
+    - text: API clients
+      url: /api/clients.html
+    - text: API reference
+      url: /api/reference.html
   - heading: Support
     topics:
     - text: Contact us

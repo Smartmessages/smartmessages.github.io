@@ -28,12 +28,14 @@
 }
 
 body {
-  padding-top: 100px;
+  padding-top: 73px;
   font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
   background-color: #faf3e4;
   color: #333;
 }
-
+body, div, span, p, input, button, select, textarea {
+  font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+}
 h1, h2, h3, h4, h5, h6 {
     text-shadow: .1em .1em .2em rgba(0,0,0,0.1);
     font-weight: 500;
@@ -70,8 +72,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #menu {
   min-height: 800px;
-  border-left: 1px solid #eee;
   width: 180px;
+  font-size: 14px;
 }
 @media (min-width: 1200px) {
   #menu {
@@ -96,28 +98,28 @@ h1, h2, h3, h4, h5, h6 {
 
 #menu li.nav-header {
   color: #554e3e;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'DINSchrift Alternate', Helvetica, Arial, sans-serif;
   font-weight: normal;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 #menu li a {
-  padding-top: 6px;
+  padding-top: 4px;
   padding-bottom: 8px;
 }
 #menu li a {
-  color: #999;
+  color: #666;
   text-shadow: none;
 }
 #menu li.active a {
-  background-color: #33a5c8;
-  color: #fff;
+  background-color: #f8cb66;
+  color: #000;
 }
 
 .orange-button {
   display: inline-block;
-  line-height: 20px;
-  border-radius: 20px;
+  line-height: 18px;
+  border-radius: 18px;
   vertical-align: middle;
   color: #ffffff !important;
   background-image: linear-gradient(90deg, #dc534b 0%, #d96f5f 100%);
