@@ -1,4 +1,6 @@
-jetstrap-docs
-=============
+Smartmessages Documentation Project
+===================================
 
-Jetstrap Documentation and Tutorials
+This is the Smartmessages documentation github pages project.
+
+Originally based on [jetstrap-docs](https://github.com/driftyco/jetstrap-docs)
